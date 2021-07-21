@@ -19,6 +19,6 @@ print(x[2])
 for item in 'Hamed Farvardin':
     print (item)
 
-for item in range():
+for item in range(5, 10):
     print(item)
 

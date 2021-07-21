@@ -120,5 +120,15 @@ Person =  { "name" : 'hamed' , "age" : 34 , "lastName" : 'Farvardin' }
 
 print(Person["age"])
 
+## touples when you want to have list o objects that now where in
+## project can change items immutable
 
+my_touple = (1,2,3,4)
+my_touple[0] = 2 ## getting error
+
+## unpacking
+coordinate = (1,2,3)
+x,y,z = coordinate
+
+print(z)
 
