@@ -34,3 +34,9 @@ try:
 except ValueError:
     print("invalid value")
 
+
+## optional values
+def increment(number , by=1):
+    return number + by
+
+print(increment(2,2))
